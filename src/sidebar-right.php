@@ -33,7 +33,7 @@
         </li> 
 
         <li class="widget widget_archive">
-            <?php the_widget( 'WP_Widget_Archives' ); ?>
+            <?php the_widget( 'WP_Widget_Archives', 'dropdown=1' ); ?>
         </li>
     </ul>
 </div>

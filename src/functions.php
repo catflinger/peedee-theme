@@ -34,6 +34,19 @@ function pd_default_menu() {
 	echo $html;
 } 
 
+/*
+The following section is copied and slightly modified from Till Kruss's plugin.  
+Many thanks to Till for the use of this code.
+
+Plugin Name: Paste as Plain Text
+Plugin URI: http://wordpress.org/plugins/paste-as-plain-text/
+Description: Forces the WordPress editor to paste everything as plain text.
+Version: 1.0.1
+Author: Till Krüss
+Author URI: http://till.kruss.me/
+License: GPLv3
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
 class PeeDeePasteAsPlainText {
 
         function __construct() {
